@@ -2,14 +2,12 @@ package ObserverDesignPattern;
 
 public class Main {
   public static void main(String[] args) {
-    // Subject
+    
     BatteryLevel subject = new BatteryLevel();
 
-    // Observers
     OSPowerManager observer1 = new OSPowerManager(subject);
     TextEditorApp observer2 = new TextEditorApp(subject);
 
-    // Perform actions in the subject
     subject.setBatteryLevel(100);
     subject.setBatteryLevel(90);
     subject.setBatteryLevel(50);
