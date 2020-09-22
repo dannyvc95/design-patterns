@@ -28,7 +28,7 @@ public class BatteryLevel extends Subject {
       // Update battery level
       this.batteryLevel = batteryLevel;
       System.out.println("Battery level " + batteryLevel + "%");
-      // Notify observers when on a battery charge level
+      // Notify observers on a battery charge level
       notifyObservers();
     }
   }
