@@ -4,8 +4,6 @@ This repo is based on the content of 'Desing Patterns Elements of Reusable Objec
 
 The purpose of this repo is to have a quick reference of design patters and also have access to some practical examples (in Java) of most of them.
 
-#
-
 ## Design patterns:
 Please notice that design patterns marked with an * are planned but not available. 
 
