@@ -4,3 +4,4 @@ You will found the following design patterns examples implemented in Java:
 - Singleton
 - Decorator
 - Proxy
+- Template Method
